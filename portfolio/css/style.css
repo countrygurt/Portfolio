@@ -1,0 +1,38 @@
+/* NavBar */
+#nav {
+    background: #202020;
+}
+.navbar-toggler {
+    color: white;
+    border: black;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 90px;
+}
+/* how do i get the bar below and the length of the text?*/
+nav li {
+    position: relative;
+}
+
+nav li a::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0%;
+    background-color: white;
+
+    position: absolute;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav li a:hover::after {
+    width: 82%;
+}
