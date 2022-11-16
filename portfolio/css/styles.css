@@ -18,7 +18,7 @@ body {
 body::before {
     display: block;
     content: '';
-    height: 90px;
+    height: 80px;
 }
 /* how do i get the bar below and the length of the text?*/
 nav li {
@@ -41,6 +41,7 @@ nav li a:hover::after {
     width: 82%;
 }
 
+/*showcase*/
 section.light, section.main {
     overflow: hidden;
     border-top: #ffffff solid 1px;
@@ -286,3 +287,18 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+
+/*Services Page*/
+.jumbotron {
+  background-image: url("https://icm.aexp-static.com/content/dam/contenthub/us/en/ach-images/2019/7/empower-collaboration-office-space-mccann-header.jpg?imwidth=968");
+  background-size: cover;
+  height: 100%;
+  min-height: 650px;
+}
+
+.Btext {
+    color: #FFF;
+    text-shadow: 0px 1px 12px black;
+  }
+
+/*How We work Page*/
