@@ -26,6 +26,9 @@
             <div class="collapse navbar-collapse" id="navmenu"> 
                 <ul class="navbar-nav ml-auto pt-2">
                     <li class="nav-item mx-2 h6">
+                        <a href="index.html" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item mx-2 h6">
                         <a href="Services.html" class="nav-link text-white">Services</a>
                     </li>
                     <li class="nav-item mx-2 h6">
@@ -44,6 +47,95 @@
             </div>
         </div>
     </nav>
+
+    <section class="m-5">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault01">First name</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault02">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                        </div>
+                        
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">City</label>
+                            <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault04">State</label>
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault05">Zip</label>
+                            <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault06">Phone number</label>
+                            <input type="phone" class="form-control" id="validationDefault06" placeholder="(555)-555-5555" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault07">Email</label>
+                            <input type="phone" class="form-control" id="validationDefault07" placeholder="email@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <label for="freeform">Tell us more about you and your business:</label>
+                            <textarea id="freeform" name="freeform"  placeholder="Enter text here..." class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <img src="https://static-freedomusainc1.netdna-ssl.com/blog/wp-content/webp-express/webp-images/uploads/2015/07/pc-repair-1200x628.jpg.webp" alt="" class="img-fluid" id="conimage">
+            </div>
+        </div>
+    </section>
+
+    <div id="aboutrow">
+        <div class="container my-5">
+            <div class="row p-5">
+                <div class="col text-white">
+                    <h1>Lorem</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ducimus expedita, tenetur impedit quisquam molestiae dignissimos sunt delectus. Soluta alias hic voluptates quaerat provident nostrum doloremque amet eligendi itaque dolor molestias, nemo delectus aliquid praesentium commodi, totam mollitia ab nobis quas veritatis sed perferendis deleniti! Dolorem nostrum earum officia qui neque dignissimos veritatis sapiente fugiat amet, illum magni soluta debitis.</p>
+                </div>
+                <div class="col">
+                    <div id="map"></div> 
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-5">
+        <div class="col-sm-6">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae expedita dolore, quia modi excepturi blanditiis mollitia corporis consectetur voluptatum. Temporibus a iste excepturi quibusdam porro iusto, expedita eum illo aperiam, asperiores consequatur laboriosam dolores hic error eligendi, dolorem deserunt obcaecati ipsam ex totam dolor minus! Dolorem quis hic possimus.</p>
+        </div>
+        <div class="col-sm-6">
+            <h1>lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae expedita dolore, quia modi excepturi blanditiis mollitia corporis consectetur voluptatum. Temporibus a iste excepturi quibusdam porro iusto, expedita eum illo aperiam, asperiores consequatur laboriosam dolores hic error eligendi, dolorem deserunt obcaecati ipsam ex totam dolor minus! Dolorem quis hic possimus.</p>
+        </div>
+    </div>
 
     <!--footer-->
     <footer class="footer-section">
@@ -163,6 +255,9 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+    <script src="js/index.js"></script>
+ 
 </body>
 
 </html>

@@ -302,3 +302,22 @@ ul {
   }
 
 /*How We work Page*/
+
+/*Contact us*/
+#conimage {
+  height: 550px;
+}
+
+#aboutrow {
+  background: #2E2E2E;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#jumbo2 {
+  background-image: url(https://www.nsha.org/wp-content/uploads/2017/06/computer-coding.jpg);
+  min-height: 400px;
+}
